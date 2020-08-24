@@ -20,3 +20,4 @@ class ModelTests(TestCase):
 
     def test_new_user_invalid_email(self):
         with self.assertRaises(ValueError):
+            pass
